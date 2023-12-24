@@ -325,13 +325,13 @@ describe('core-js-numbers', () => {
     }
   );
 
-  it.optional(
+it.optional(
     'roundToLargestInteger returns the smallest integer greater than or equal to a given number',
     () => {
       assert.equal(tasks.roundToLargestInteger(5.1), 6);
       assert.equal(tasks.roundToLargestInteger(-5.9), -5);
     }
-  );
+  );  
 
   it.optional(
     'roundToNearestInteger returns the value of a number rounded to the nearest integer',
